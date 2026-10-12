@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Guantian Huang is a Ph.D. student in Biomedical Engineering at Northeastern University.">
+    <meta name="theme-color" content="#ffffff">
+    <title>Guantian Huang - Homepage</title>
+    <link rel="icon" href="profile-monogram.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="masthead" id="top">
+      <div class="masthead__inner-wrap">
+        <a class="masthead__menu-item masthead__menu-item--home" href="#about">Homepage</a>
+        <button class="masthead__toggle" type="button" aria-expanded="false" aria-controls="site-navigation">
+          <span class="screen-reader-text">Toggle navigation</span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </button>
+        <nav class="greedy-nav" id="site-navigation" aria-label="Primary navigation">
+          <a href="#about">About Me</a>
+          <a href="#education">Education</a>
+          <a href="#publications">Publications</a>
+          <a href="#honors">Honors and Awards</a>
+          <a href="#services">Services</a>
+          <a href="#activities">Academic Activities</a>
+        </nav>
+      </div>
+    </header>
+
+    <div id="main" role="main">
+      <aside class="sidebar" aria-label="Author profile">
+        <div class="author__avatar">
+          <img src="profile-monogram.svg" alt="Guantian Huang profile monogram" width="175" height="175">
+        </div>
+        <div class="author__content">
+          <h2 class="author__name">Guantian Huang</h2>
+          <p class="author__bio">Ph.D. Student in Biomedical Engineering</p>
+          <p class="author__institution">Northeastern University</p>
+        </div>
+        <div class="author__urls-wrapper">
+          <ul class="author__urls social-icons">
+            <li><a href="https://github.com/GuantianHuangg" target="_blank" rel="noreferrer">GitHub</a></li>
+            <li><a href="#publications">Selected publications</a></li>
+          </ul>
+        </div>
+      </aside>
+
+      <article class="page" id="main-content">
+        <section class="page__content" id="about" aria-labelledby="about-title">
+          <h1 id="about-title">🧑‍🎓 About Me</h1>
+          <p>I am a Ph.D. student in Biomedical Engineering at the College of Medicine and Biological Information Engineering, Northeastern University. I received my B.Eng. and M.Sc. degrees in Biomedical Engineering from Northeastern University in 2022 and 2025, respectively.</p>
+          <p>My work centers on semi-supervised learning and medical image analysis, with applications in segmentation and multimodal imaging under limited annotation settings.</p>
+        </section>
+
+        <section class="page__content" id="education" aria-labelledby="education-title">
+          <h1 id="education-title">🎓 Education</h1>
+          <ul>
+            <li><strong>2025.09 - Present</strong>, Ph.D. in Biomedical Engineering, Northeastern University, China.</li>
+            <li><strong>2022.09 - 2025.07</strong>, M.Sc. in Biomedical Engineering, Northeastern University, China.</li>
+            <li><strong>2019.07 - 2019.08</strong>, Summer Exchange, College of Science and Engineering, University of Dundee, United Kingdom.</li>
+            <li><strong>2018.08 - 2022.07</strong>, B.Eng. in Biomedical Engineering, Northeastern University, China.</li>
+          </ul>
+        </section>
+
+        <section class="page__content" id="publications" aria-labelledby="publications-title">
+          <h1 id="publications-title">📝 Publications</h1>
+
+          <article class="archive__item">
+            <div class="archive__item-teaser teaser--seg" aria-hidden="true">
+              <span class="teaser__badge">Bioengineering 2024</span>
+              <svg viewBox="0 0 280 150" role="presentation"><rect width="280" height="150" fill="#f7f8fa"/><path d="M36 83c11-43 56-63 103-48 36 11 65 42 45 78-20 34-82 31-119 1C46 99 32 97 36 83Z" fill="#deebf4"/><path d="M42 84c12-39 56-59 96-44 32 12 51 39 37 66-17 29-73 29-108 2-15-12-29-12-25-24Z" fill="none" stroke="#00369f" stroke-width="3"/><path d="M67 84c16-27 49-36 75-23 21 11 27 31 11 49-18 20-58 15-78-2-12-10-17-16-8-24Z" fill="none" stroke="#5e9d9a" stroke-width="3" stroke-dasharray="6 5"/><circle cx="117" cy="79" r="7" fill="#e58b53"/><path d="M28 123h92" stroke="#8b939c" stroke-width="2"/><text x="28" y="138" fill="#69727d" font-family="Helvetica, Arial, sans-serif" font-size="10">PROSTATE ZONAL SEGMENTATION</text></svg>
+            </div>
+            <div class="archive__item-body">
+              <h2 class="archive__item-title"><a href="https://www.mdpi.com/2306-5354/11/9/865" target="_blank" rel="noreferrer">A Comparative Analysis of U-Net and Vision Transformer Architectures in Semi-Supervised Prostate Zonal Segmentation</a></h2>
+              <p><strong>Huang G.</strong>, Xia B., Zhuang H., Yan B., Wei C., Qi S., Qian W., and He D.</p>
+              <p><em>Bioengineering</em>, 2024, 11(9):865. <a href="https://doi.org/10.3390/bioengineering11090865" target="_blank" rel="noreferrer">Paper</a></p>
+              <p>This work compares U-Net and vision-transformer architectures for semi-supervised prostate zonal segmentation.</p>
+            </div>
+          </article>
+
+          <article class="archive__item">
+            <div class="archive__item-teaser teaser--curve" aria-hidden="true">
+              <span class="teaser__badge">Medical Physics 2025</span>
+              <svg viewBox="0 0 280 150" role="presentation"><rect width="280" height="150" fill="#f7f8fa"/><path d="M42 119H244M42 119V30" fill="none" stroke="#87909a" stroke-width="2"/><path d="M54 108C79 102 80 59 111 70c28 11 22 39 50 12 18-17 29-35 69-61" fill="none" stroke="#00369f" stroke-width="4"/><path d="M54 98c28-6 40-32 60-20 26 15 38 25 59 3 15-15 29-28 57-43" fill="none" stroke="#5e9d9a" stroke-width="3" stroke-dasharray="6 5"/><text x="42" y="140" fill="#69727d" font-family="Helvetica, Arial, sans-serif" font-size="10">TOFTS MODEL PARAMETER ESTIMATION</text></svg>
+            </div>
+            <div class="archive__item-body">
+              <h2 class="archive__item-title"><a href="https://pubmed.ncbi.nlm.nih.gov/40804784/" target="_blank" rel="noreferrer">Decoupling iterative algorithm for rapid calculation of physiological parameters from the standard Tofts model</a></h2>
+              <p>Chang S., Fan X., Ma Y., <strong>Huang G.</strong>, Qi S., Qian W., Shi X., and He D.</p>
+              <p><em>Medical Physics</em>, 2025, 52(8):e18043. <a href="https://doi.org/10.1002/mp.18043" target="_blank" rel="noreferrer">Paper</a></p>
+              <p>A decoupled iterative approach for rapid calculation of physiological parameters from the standard Tofts model.</p>
+            </div>
+          </article>
+
+          <article class="archive__item">
+            <div class="archive__item-teaser teaser--mcic" aria-hidden="true">
+              <span class="teaser__badge">arXiv 2024</span>
+              <svg viewBox="0 0 280 150" role="presentation"><rect width="280" height="150" fill="#f7f8fa"/><g fill="none" stroke="#00369f" stroke-width="2.5"><circle cx="93" cy="75" r="40"/><circle cx="140" cy="75" r="40"/><circle cx="187" cy="75" r="40"/></g><circle cx="140" cy="75" r="27" fill="#bad9d7"/><path d="M125 75l11 11 24-28" fill="none" stroke="#00369f" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><text x="34" y="137" fill="#69727d" font-family="Helvetica, Arial, sans-serif" font-size="10">MONTE CARLO INTERPOLATION CONSISTENCY</text></svg>
+            </div>
+            <div class="archive__item-body">
+              <h2 class="archive__item-title"><a href="https://arxiv.org/abs/2409.13371" target="_blank" rel="noreferrer">MCICSAM: Monte Carlo-guided Interpolation Consistency Segment Anything Model for Semi-Supervised Prostate Zone Segmentation</a></h2>
+              <p><strong>Guantian Huang</strong>, B. Li, X. Fan, et al.</p>
+              <p><em>arXiv</em>:2409.13371, 2024. <a href="https://arxiv.org/abs/2409.13371" target="_blank" rel="noreferrer">Preprint</a></p>
+              <p>A Monte Carlo-guided interpolation-consistency strategy for semi-supervised prostate zone segmentation with Segment Anything.</p>
+            </div>
+          </article>
+          <p class="small-note">Only published work and public preprints are listed. Manuscripts under review are not presented as published work.</p>
+        </section>
+
+        <section class="page__content" id="honors" aria-labelledby="honors-title">
+          <h1 id="honors-title">🏆 Honors and Awards</h1>
+          <ul>
+            <li>First-Class Academic Scholarship for Master's Students, Northeastern University.</li>
+            <li>Second-Class Academic Scholarship for Master's Students, Northeastern University.</li>
+          </ul>
+        </section>
+
+        <section class="page__content" id="services" aria-labelledby="services-title">
+          <h1 id="services-title">💻 Services</h1>
+          <p>Reviewer of the International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI).</p>
+        </section>
+
+        <section class="page__content" id="activities" aria-labelledby="activities-title">
+          <h1 id="activities-title">🎤 Academic Activities</h1>
+          <ul>
+            <li><strong>ABMP-NET 2026</strong>. Poster presentation.</li>
+            <li><strong>ISMRM Annual Meeting 2026</strong>, Cape Town, South Africa. <em>Accelerating Prostate Microstructure Mapping: A CycleGAN-Based Framework for HM-MRI Synthesis.</em> Poster.</li>
+            <li><strong>RSNA 2025</strong>, Chicago, United States. <em>CycleGAN-Based HM-MRI Synthesis for Rapid Noninvasive Characterization of Prostate Cancer Microarchitecture.</em> Oral presentation.</li>
+            <li><strong>CMMCA 2025 with MICCAI</strong>. <em>Region-Aware Diagnosis of Clinically Significant Prostate Cancer via Semi-supervised Learning Segmentation.</em> Oral presentation.</li>
+            <li><strong>Chinese Biomedical Engineering Conference and Innovation Medical Summit 2024</strong>, Shenzhen, China. <em>MCICSAM.</em> Oral presentation.</li>
+            <li><strong>Chinese Biomedical Engineering Conference and Innovation Medical Summit 2023</strong>, Suzhou, China. <em>Prognosis of Hormone Therapy for Prostate Cancer Based on Multi-parametric MRI.</em> Poster.</li>
+          </ul>
+        </section>
+      </article>
+    </div>
+
+    <footer class="page__footer">
+      <div class="page__footer-follow"><a href="https://github.com/GuantianHuangg" target="_blank" rel="noreferrer">GitHub</a></div>
+      <div class="page__footer-copyright">© <span id="year"></span> Guantian Huang</div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

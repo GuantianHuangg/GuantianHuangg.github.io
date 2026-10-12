@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 175 175" role="img" aria-labelledby="title desc">
+  <title id="title">Guantian Huang profile monogram</title>
+  <desc id="desc">A restrained navy blue academic monogram with the initials GH.</desc>
+  <rect width="175" height="175" fill="#f4f5f6"/>
+  <rect x="13" y="13" width="149" height="149" fill="#ffffff" stroke="#d9dcdf"/>
+  <path d="M38 53h99M38 123h99" stroke="#dfe3e6" stroke-width="1"/>
+  <circle cx="87.5" cy="87.5" r="40" fill="#eef3f8" stroke="#224b8d" stroke-width="1.5"/>
+  <text x="87.5" y="100" fill="#224b8d" font-family="Georgia, serif" font-size="37" font-weight="700" text-anchor="middle">GH</text>
+  <text x="87.5" y="145" fill="#7a8288" font-family="Helvetica, Arial, sans-serif" font-size="7" letter-spacing="2" text-anchor="middle">BIOMEDICAL AI</text>
+</svg>
